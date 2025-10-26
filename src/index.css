@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 25 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 25 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 25% 15%;
+
+    /* Saffron/Orange - Primary brand color */
+    --primary: 28 100% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 28 100% 70%;
+
+    /* Deep Green - Secondary */
+    --secondary: 140 80% 25%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Maroon - Accent */
+    --accent: 345 85% 25%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Gold - Highlight */
+    --gold: 45 100% 50%;
+    --gold-foreground: 25 25% 15%;
+
+    --muted: 28 20% 95%;
+    --muted-foreground: 25 15% 45%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 28 30% 90%;
+    --input: 28 30% 90%;
+    --ring: 28 100% 60%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(28 100% 60%), hsl(45 100% 50%));
+    --gradient-cultural: linear-gradient(180deg, hsl(28 100% 60%), hsl(345 85% 25%));
+    --gradient-hero: linear-gradient(135deg, hsl(28 100% 60% / 0.9), hsl(140 80% 25% / 0.9));
+
+    /* Shadows */
+    --shadow-cultural: 0 10px 40px -10px hsl(28 100% 60% / 0.3);
+    --shadow-glow: 0 0 30px hsl(45 100% 50% / 0.2);
+  }
+
+  .dark {
+    --background: 25 25% 10%;
+    --foreground: 0 0% 95%;
+
+    --card: 25 20% 15%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 25 20% 15%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 28 100% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 28 100% 65%;
+
+    --secondary: 140 70% 30%;
+    --secondary-foreground: 0 0% 100%;
+
+    --accent: 345 75% 35%;
+    --accent-foreground: 0 0% 100%;
+
+    --gold: 45 100% 55%;
+    --gold-foreground: 25 25% 15%;
+
+    --muted: 25 20% 20%;
+    --muted-foreground: 0 0% 65%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 25 20% 25%;
+    --input: 25 20% 25%;
+    --ring: 28 100% 55%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(28 100% 55%), hsl(45 100% 55%));
+    --gradient-cultural: linear-gradient(180deg, hsl(28 100% 55%), hsl(345 75% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(28 100% 55% / 0.9), hsl(140 70% 30% / 0.9));
+
+    --shadow-cultural: 0 10px 40px -10px hsl(28 100% 55% / 0.4);
+    --shadow-glow: 0 0 30px hsl(45 100% 55% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-gold bg-clip-text text-transparent;
+  }
+
+  .bg-gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .bg-gradient-cultural {
+    background: var(--gradient-cultural);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-cultural {
+    box-shadow: var(--shadow-cultural);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .pattern-cultural {
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(28 100% 60% / 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(140 80% 25% / 0.05) 0%, transparent 50%);
+  }
+}

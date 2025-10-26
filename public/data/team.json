@@ -1,0 +1,68 @@
+{
+  "executive": [
+    {
+      "name": "Amit Kumar Singh",
+      "role": "President",
+      "bio": "Leading UBJCS with vision and dedication to preserve our cultural heritage.",
+      "image": "/src/assets/team-member-1.jpg"
+    },
+    {
+      "name": "Rina Kumari",
+      "role": "Vice President",
+      "bio": "Coordinating events and fostering community engagement.",
+      "image": "/src/assets/team-member-2.jpg"
+    },
+    {
+      "name": "Rajesh Verma",
+      "role": "Secretary",
+      "bio": "Managing organizational communications and documentation.",
+      "image": "/src/assets/team-member-3.jpg"
+    },
+    {
+      "name": "Sunita Devi",
+      "role": "Treasurer",
+      "bio": "Overseeing financial management and resource allocation.",
+      "image": "/src/assets/team-member-4.jpg"
+    }
+  ],
+  "cultural": [
+    {
+      "name": "Ravi Kumar Pandey",
+      "role": "Cultural Coordinator",
+      "bio": "Organizing traditional performances and cultural events.",
+      "image": "/src/assets/team-member-5.jpg"
+    },
+    {
+      "name": "Anjali Sharma",
+      "role": "Dance Coordinator",
+      "bio": "Training and coordinating folk dance performances.",
+      "image": "/src/assets/team-member-6.jpg"
+    },
+    {
+      "name": "Manoj Prasad",
+      "role": "Music Director",
+      "bio": "Leading devotional and folk music initiatives.",
+      "image": "/src/assets/team-member-7.jpg"
+    }
+  ],
+  "volunteers": [
+    {
+      "name": "Priya Singh",
+      "role": "Volunteer Lead",
+      "bio": "Coordinating volunteer activities and community outreach.",
+      "image": "/src/assets/team-member-8.jpg"
+    },
+    {
+      "name": "Deepak Mishra",
+      "role": "Event Volunteer",
+      "bio": "Supporting event logistics and guest management.",
+      "image": "/src/assets/team-member-9.jpg"
+    },
+    {
+      "name": "Kavita Jha",
+      "role": "Community Volunteer",
+      "bio": "Engaging with community members and promoting cultural activities.",
+      "image": "/src/assets/team-member-10.jpg"
+    }
+  ]
+}

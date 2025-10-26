@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "image": "/src/assets/holi-celebration.jpg",
+    "caption": "Holi Celebration 2024 - Festival of Colors",
+    "event": "Holi Festival",
+    "date": "March 2024"
+  },
+  {
+    "id": "2",
+    "image": "/src/assets/chhath-puja.jpg",
+    "caption": "Chhath Puja Ceremony - Sacred Rituals at Dawn",
+    "event": "Chhath Puja",
+    "date": "November 2024"
+  },
+  {
+    "id": "3",
+    "image": "/src/assets/cultural-night.jpg",
+    "caption": "Cultural Night Performance - Traditional Folk Dance",
+    "event": "Cultural Night",
+    "date": "December 2024"
+  },
+  {
+    "id": "4",
+    "image": "/src/assets/hero-image.jpg",
+    "caption": "Community Gathering - Unity in Diversity",
+    "event": "Community Event",
+    "date": "January 2025"
+  }
+]

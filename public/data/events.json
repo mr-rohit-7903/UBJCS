@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Chhath Puja Celebration",
+    "date": "2025-11-10",
+    "description": "Annual celebration of Chhath Puja with traditional rituals and songs. Join us for this sacred festival dedicated to the Sun God and Chhathi Maiya. Experience authentic cultural traditions, devotional songs, and community feast.",
+    "image": "/src/assets/chhath-puja.jpg",
+    "time": "5:00 AM - 6:00 PM",
+    "location": "Community Riverbank Area"
+  },
+  {
+    "id": "2",
+    "title": "Cultural Night 2025",
+    "date": "2025-12-15",
+    "description": "An evening showcasing folk dances, songs, and regional cuisine from UP, Bihar, and Jharkhand. Experience the vibrant cultural heritage through traditional performances, live music, and authentic regional delicacies.",
+    "image": "/src/assets/cultural-night.jpg",
+    "time": "6:00 PM - 10:00 PM",
+    "location": "Community Center Auditorium"
+  },
+  {
+    "id": "3",
+    "title": "Holi Festival of Colors",
+    "date": "2025-03-25",
+    "description": "Celebrate the festival of colors with music, dance, and traditional sweets. Join us for a vibrant celebration filled with organic colors, dhol beats, and delicious gujiya and thandai.",
+    "image": "/src/assets/holi-celebration.jpg",
+    "time": "10:00 AM - 2:00 PM",
+    "location": "Community Ground"
+  },
+  {
+    "id": "4",
+    "title": "Annual General Meeting 2025",
+    "date": "2025-02-20",
+    "description": "Join us for our annual general meeting to discuss upcoming events, community initiatives, and cultural programs. Your participation and feedback are valuable to us.",
+    "image": "/src/assets/hero-image.jpg",
+    "time": "5:00 PM - 7:00 PM",
+    "location": "Community Hall"
+  }
+]
